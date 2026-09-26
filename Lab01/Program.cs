@@ -1,4 +1,4 @@
-﻿string myName = "Мягков Владимир";
+string myName = "Мягков Владимир";
 string groupName = "ИСП-254";
 int courseNumber = 2;
 double averageGrade = 4.6;
@@ -91,3 +91,12 @@ const int MonthsInSemester = 4;
 
 Console.WriteLine($"Денег осталось к концу месяца: {scholarship - monthlyExpenses}");
 Console.WriteLine($"За семестр останется: {(scholarship - monthlyExpenses) * MonthsInSemester}.");
+
+//Задание 3. Исправить ошибки.
+Console.WriteLine();
+Console.WriteLine("Задание 3. Исправить ошибки.");
+int totalMinutes = 500;
+int minutesPerLesson = 45;
+int lessonsCount = totalMinutes / minutesPerLesson;
+int remainingMinutes = totalMinutes % minutesPerLesson;
+Console.WriteLine($"{totalMinutes} минут = {lessonsCount} занятий + {remainingMinutes} минут.");
