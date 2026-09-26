@@ -81,3 +81,13 @@ Console.WriteLine($"Цена без НДС: {productPrice}, с НДС ({VatRate:
 */
 
 // TODO: часто используется, чтобы отметить недоделанный участок кода
+
+// Задание 1. Финансовый мини-расчёт
+Console.WriteLine();
+Console.WriteLine("Задание 1. Финансовый мини-расчёт");
+int scholarship = 10000;
+int monthlyExpenses = 8000;
+const int MonthsInSemester = 4;
+
+Console.WriteLine($"Денег осталось к концу месяца: {scholarship - monthlyExpenses}");
+Console.WriteLine($"За семестр останется: {(scholarship - monthlyExpenses) * MonthsInSemester}.");
